@@ -39,3 +39,31 @@ The client, AdventureWorks, aims to **improve their current internet sales repor
 
 **The analysis will consider sales data from the past two years to provide a historical context and identify trends**. The final dashboard will deliver key insights, helping the client understand product performance, customer behaviors, and whether sales are aligning with their projected budget for 2024.
 
+## Step 2: Data Cleaning with SQL
+
+In this phase, the goal was to clean and organize the raw data to ensure it’s ready for meaningful analysis. Data cleaning is crucial to avoid errors or inconsistencies in the analysis and dashboard creation.
+
+**1. Identifying Key Tables**
+I focused on specific tables from the AdventureWorksDW2022 dataset, including:
+- **FactInternetSales** – Contains all internet sales transaction data.
+- **DimProduct** – Provides detailed information about the products.
+- **DimCustomer** – Holds customer-related data such as demographics and region.
+- **DimDate** – A time dimension table used for analyzing sales over different periods.
+
+**2. Data Cleaning Process in SQL**
+Using SQL Server Management Studio (SSMS), I performed the following key steps:
+
+- **Filtering irrelevant data**: Removed rows not necessary for the analysis, such as transactions outside the target time period.
+- **Handling duplicates**: Removed duplicate records to maintain data accuracy.
+- **Ensuring data consistency**: Reformatted dates, product codes, and customer IDs for uniformity.
+- **Joining Tables**: Combined tables using JOIN operations to create a unified dataset.
+
+**3. SQL Queries and Cleaned Data**
+All the SQL queries I used for data cleaning are available in the SQL query files in this repository. These queries include:
+
+- SELECT statements to extract relevant columns.
+- JOIN operations to merge tables.
+- FILTER operations using WHERE clauses to focus on the required data.
+- The cleaned data tables are provided in CSV format, which can also be found in this repository.
+
+**You can find the full SQL queries and cleaned CSV files in this repository**
