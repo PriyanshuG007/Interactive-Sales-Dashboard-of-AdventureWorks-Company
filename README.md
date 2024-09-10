@@ -67,3 +67,33 @@ All the SQL queries I used for data cleaning are available in the SQL query file
 - The cleaned data tables are provided in CSV format, which can also be found in this repository.
 
 **You can find the full SQL queries and cleaned CSV files in this repository**
+
+## Step 3: Building the Interactive Sales Dashboard
+
+In this phase, I used Power BI to create an interactive dashboard that provides valuable insights into the internet sales data of AdventureWorks. The dashboard allows stakeholders to visually explore sales performance, customer purchasing patterns, and product trends over time.
+
+**1. Key Objectives of the Dashboard**
+The dashboard was built with the following objectives in mind, based on the client's request:
+
+- **Sales Overview**: Show the total sales revenue, the number of products sold, and the number of unique customers.
+- **Product Insights**: Display sales data by product categories and subcategories to analyze which products performed best.
+- **Customer Analysis**: Provide insights into customer demographics and purchasing behavior.
+- **Time Analysis**: Analyze sales trends over time, including monthly and yearly sales performance.
+
+**2. Dashboard Features**
+The following features were implemented in the dashboard to enhance its interactivity and usability:
+
+- Slicers for filtering by product category, customer region, and time periods.
+- Interactive Charts to visualize sales trends, customer segmentation, and product performance.
+
+**3. Power BI Visualizations**
+The dashboard contains a variety of visual elements, including:
+
+- Bar Charts for visualizing top-performing products and sales per region.
+- Line Charts to show sales trends over time.
+- Pie Charts to break down sales by product categories.
+- Tables for detailed data breakdowns by customer or product.
+- 
+**4. Dashboard Publishing**
+  
+The final interactive dashboard was published through Power BI Service, making it accessible to the client and stakeholders for ongoing analysis and decision-making.
